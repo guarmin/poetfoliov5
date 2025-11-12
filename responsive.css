@@ -1,0 +1,39 @@
+@media all and (max-width: 1024px) {
+
+    .site-header {
+        position: static;
+        text-align: center;
+    }
+
+    .site-header .conteneur {
+        flex-direction: column;
+    }
+
+    .navigation-principale {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .navigation-principale ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navigation-principale li {
+        margin-left: 0;
+    }
+
+    main {
+        padding-top: 0;
+    }
+
+    .zone {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+}
